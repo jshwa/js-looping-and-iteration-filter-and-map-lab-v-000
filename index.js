@@ -6,7 +6,7 @@ function driversWithRevenueOver(drivers, revenue) {
 }
 
 function driverNamesWithRevenueOver(drivers, revenue) {
-  return console.log(driversWithRevenueOver(drivers, revenues))
+  return console.log(driversWithRevenueOver(drivers, revenue).name)
 }
 
 function exactMatch() {
